@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: 'plain light' ;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    /* background-color: #000; Ensure a consistent background */
+}
+
+
+
+.main{
+    position: relative;
+    background-color: #151515;}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000f6;
+}
+
+
+#loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #030303;
+    padding: 25vh 10vw;
+   
+
+} 
+
+
+
+.line{
+    /* background-color: red; */
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vw;
+   
+}
+
+.line h1{
+    font-size: 6.5vw;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.line h2{
+     font-size: 5vw;
+    /* text-transform: uppercase; */
+    font-weight: 900;
+    animation-name:anime;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes anime {
+    0%{
+        font-family: "plain light";
+        -webkit-text-stroke: 1px #fff;
+        color: #fff;
+    }
+    100%{
+        font-family: "silk serif";
+        -webkit-text-stroke: 1px #fff;
+         color: transparent;
+    }
+    
+}
+
+
+.firstpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.1vw;
+
+
+}
+.firstpart h5 , .firstpart h6{
+    font-size: 2.5vw;
+    font-family: 'silk serif';
+    font-weight: 150;
+}
+
+
+.firstpart h5{
+    /* background-color: red; */
+    text-align: right;
+    width: 5vw;
+} 
