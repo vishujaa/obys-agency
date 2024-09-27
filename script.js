@@ -133,7 +133,9 @@ function cursr() {
 
   
     videoContainer.addEventListener("mousemove", (dets) => {
+      
       gsap.to(mouseFollower, {
+        
         opacity: 0,
       });
   
