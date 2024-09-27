@@ -708,7 +708,7 @@ opacity:0;
 @media (max-width:600px) {
   
 body{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
   #page1 {
